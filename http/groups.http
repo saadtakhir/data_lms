@@ -1,0 +1,24 @@
+@url = http://localhost:7060/groups
+
+###
+GET {{url}}
+
+###
+POST {{url}}
+Content-Type: application/json
+
+{
+    "name": "",
+    "direction": ""
+}
+
+###
+DELETE {{url}}/e1c0e6aa-7ce5-4e3b-b09f-dbb57c0d3371
+
+###
+PUT {{url}}/f34820eb-4157-46d0-840b-102718cf627f
+Content-Type: application/json
+
+{
+    "name": "NodeJs-147"
+}
